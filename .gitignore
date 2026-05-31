@@ -1,8 +1,15 @@
 node_modules/
 .next/
+.next-dev/
 dist/
 build/
+
+admin/.next/
+admin/.next-dev/
+frontend/.next/
+
 .env
 .env.local
 .env.production
+
 *.log
