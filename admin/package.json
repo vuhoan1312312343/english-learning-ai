@@ -1,0 +1,25 @@
+{
+  "name": "lingoup-admin",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "clean": "echo clean",
+    "predev": "echo starting...",
+    "dev": "next dev -p 4000",
+    "prebuild": "echo prebuild",
+    "build": "next build",
+    "start": "next start -p 4000"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "next": "^14.2.11",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.5",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.3.0"
+  }
+}
